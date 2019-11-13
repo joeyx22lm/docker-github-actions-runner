@@ -15,6 +15,3 @@ jobs:
         name: joeyx22lm/docker-github-actions-runner
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tagging: true
-      env:
-        GITHUB_TAG: alpha
