@@ -45,8 +45,8 @@ In order for the GitHub Action Runner to begin listening without any interaction
 | `GITHUB_TOKEN` | GitHub API Token | "" | N/A |
 | `RUNNER_NAME` | Self-hosted Runner Name | _\<hostname\>_ | N/A |
 | `WORK_DIR` | Working Directory | .workdir | N/A |
-| `REPLACE_EXISTING_RUNNER` | Replace existing runner with matching name. Ignored when using _Interactive Mode_. | false | `true` or `false` |
-| `INTERACTIVE_MODE` | Don't skip runner configuration prompt | false | `true` or `false` |
+| `REPLACE_EXISTING_RUNNER` | Replace existing runner with matching name. Ignored when using _Interactive Mode_. | `false` | `true` or `false` |
+| `INTERACTIVE_MODE` | Don't skip runner configuration prompt | `false` | `true` or `false` |
 
 ## Releases
 
