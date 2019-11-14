@@ -1,7 +1,7 @@
 # GitHub Actions Runner
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/joeyx22lm/docker-github-actions-runner)
-![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/joeyx22lm/docker-github-actions-runner)
-![Docker Pulls](https://img.shields.io/docker/pulls/joeyx22lm/docker-github-actions-runner)
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/joeyx22lm/docker-github-actions-runner)](https://hub.docker.com/r/joeyx22lm/docker-github-actions-runner)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/joeyx22lm/docker-github-actions-runner)](https://hub.docker.com/r/joeyx22lm/docker-github-actions-runner)
+[![Docker Pulls](https://img.shields.io/docker/pulls/joeyx22lm/docker-github-actions-runner)](https://hub.docker.com/r/joeyx22lm/docker-github-actions-runner)
 
 Self-hosted GitHub Actions Runner, now available in a Docker container.
 
