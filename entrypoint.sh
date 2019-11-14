@@ -40,7 +40,7 @@ printf "Configuring GitHub Runner for $GITHUB_REPOSITORY_BANNER\n"
 printf "\tRunner Name: $RUNNER_NAME\n\tWorking Directory: $WORK_DIR\n\tReplace Existing Runners: $REPLACEMENT_POLICY_LABEL\n"
 if [ "$INTERACTIVE" == "FALSE" ]; then
 	echo -ne "$REPLACEMENT_POLICY" | ./app/config.sh --url $GITHUB_REPOSITORY --token $GITHUB_TOKEN --agent $RUNNER_NAME --work $WORK_DIR
-elif
+else
 	./app/config.sh --url $GITHUB_REPOSITORY --token $GITHUB_TOKEN --agent $RUNNER_NAME --work $WORK_DIR
 fi
 
