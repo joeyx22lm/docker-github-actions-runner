@@ -48,3 +48,4 @@ fi
 printf "Executing GitHub Runner for $GITHUB_REPOSITORY\n"
 echo "STARTED" > /app/started
 ./app/run.sh
+rm -f /app/started
