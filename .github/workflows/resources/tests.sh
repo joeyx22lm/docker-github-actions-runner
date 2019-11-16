@@ -67,8 +67,5 @@ else
 	echo "TEST PASSED: Should establish connection"
 fi
 
-# Remove Runner
-/app/config.sh remove --token $GITHUB_TOKEN
-
-# Kill test container 
+# Kill test container
 docker kill testimage && docker rm testimage
