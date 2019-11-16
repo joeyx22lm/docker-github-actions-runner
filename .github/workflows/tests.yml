@@ -1,4 +1,4 @@
-name: Package Release
+name: Functional Tests
 
 on:
   - push
