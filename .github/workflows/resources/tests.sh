@@ -68,7 +68,7 @@ else
 fi
 
 # Remove Runner
-/app/config.sh remove --token $GITHUB_TOKEN
+docker exec testimage bash -c "/app/config.sh remove --token \"$GITHUB_TOKEN\""
 
 # Kill test container
 docker kill testimage && docker rm testimage
