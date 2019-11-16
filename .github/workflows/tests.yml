@@ -12,7 +12,7 @@ jobs:
       - name: Build Docker Image
         run: docker build -t image .
 
-      - name: Push Docker Image
+      - name: Run All Tests
         run: |
           docker run -d \
                 -e GITHUB_REPOSITORY="https://github.com/${{ github.repository }}" \
@@ -22,8 +22,8 @@ jobs:
                 image
 
           while true; do
-              if [ -f /app/started ] then
-                  break;
+              if [ -f /app/started ]; then
+                  break
               fi
           done
           docker logs testimage > .testlogs
